@@ -9,3 +9,5 @@ My understanding of RNNs and LSTMs was developed through studying blogs by Colah
 Due to my laptop's limitations, I've been unable to fully train the model as it tends to overheat quickly. As a result, I haven't yet included a prediction function, which would typically allow the model to predict the next 'n' letters based on given input after training. This prediction function would be similar to the sampling function and could be implemented if you have access to sufficient GPU resources.
 
 I plan to train this model on a GPU when I gain access to one through my teacher and will update the repository with the prediction code at that time.
+
+Hope you gonna enjoy the code
