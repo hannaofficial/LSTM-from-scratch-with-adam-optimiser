@@ -371,7 +371,7 @@ def train_LSTM(data_reader, hidden_size,params, sq_grad, moment_grad):  #I tried
         iter_num += 1
             
             
-data_reader = Data('input.txt',seq_length=40)
+data_reader = Data('panchatantra.txt',seq_length=40)
 vocab_len = data_reader.vocab_size
 hidden_size = 512
 z_size = vocab_len + hidden_size
