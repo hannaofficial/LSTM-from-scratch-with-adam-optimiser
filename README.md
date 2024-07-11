@@ -1,14 +1,11 @@
-This is LSTM Model written from scratch I only used numpy lib.
-In this repository I will explain each code line by line 
-Right now I didn't explain the each line. Once I get Time to write I will update it.
+This is an LSTM model built entirely from scratch using only the numpy library.
 
-I use data as text of panchatantra stories. I copied data manually from books and blogs available in online
+ I intend to provide a detailed explanation of each line of code in this repository in the future.
 
-I use ADAM optimiser here previously I guess in the vanilla RNN used Adagrad
+Currently, the model is trained on text data sourced from the Panchatantra stories, which I manually collected from online books and blogs. I've opted for the ADAM optimizer in this model, though I believe I used Adagrad in a previous vanilla RNN implementation.
 
+My understanding of RNNs and LSTMs was developed through studying blogs by Colah and Andrej Karpathy, followed by analyzing various LSTM architecture implementations, which ultimately led me to create this model.
 
-I read blogs from colah and adrej to learn the concept of RNN and LSTM and Then I read different codes for LSTM  architecture and finally come up with these
+Due to my laptop's limitations, I've been unable to fully train the model as it tends to overheat quickly. As a result, I haven't yet included a prediction function, which would typically allow the model to predict the next 'n' letters based on given input after training. This prediction function would be similar to the sampling function and could be implemented if you have access to sufficient GPU resources.
 
-I couldn't able to train properly in my laptop it heats up really quicky that's I didn't write prediction function code i.e. after training you give some words to model it will predict next nth letter as per instruct in predict func  will be almost same as sample function my code even if you have good gpu facility you can write your own prediction function
-
-Once I gonna train this model in gpu if get access from teacher I will update the predict code also 
+I plan to train this model on a GPU when I gain access to one through my teacher and will update the repository with the prediction code at that time.
